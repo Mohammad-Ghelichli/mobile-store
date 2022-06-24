@@ -1,0 +1,97 @@
+.banner{
+    width: 100%;
+    position: relative;
+   
+    
+    
+    
+}
+.container{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    color: rgb(80, 81, 82);
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    perspective-origin: 50% 50%;
+
+}
+.right:hover {
+    transform: translateX(30px);
+}
+.right{
+    position: absolute;
+    font-size: 90px;
+   
+
+    left: 900px;
+    top:50px;
+    transition: 0.9s;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.left{
+    position: absolute;
+    font-size: 50px;
+    text-shadow: 1px 1px 4px 7px wheat;
+    left: 700px;
+    top:250px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+@media (max-width : 400px){
+    .right{
+        font-size: 22px;
+        left:45%;
+        top:40%
+    }
+     .right:hover {
+        transform: translateX(10px);
+     }
+     
+    .left{
+        font-size: 20px;
+        left:190px;
+        top:100px
+    }
+    .left:hover {
+        transform: translateZ(90px);
+        transition: 0.7s;
+        
+    }
+}
+@media (min-width : 400px){
+    .right{
+        font-size: 30px;
+        left:40%;
+        top:40%
+    }
+    .left{
+        font-size: 25px;
+        left:50%;
+        top:60%
+    }
+
+}
+@media (min-width : 800px){
+    .right{
+        font-size: 50px;
+        left: 45%;
+        top: 40%;
+    }
+    .left{
+        font-size: 40px;
+        left:50%px;
+        top:250px
+    }
+}
+@media (min-width : 1000px){
+    .right{
+        font-size: 65px;
+        left: 550px;
+        top: 80px;
+    }
+    .left{
+        font-size: 50px;
+        left:700px;
+        top:250px
+    }
+}

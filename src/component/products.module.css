@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: whitesmoke;
+    padding: 50px 0;
+    min-height: 100vh;
+}
+.parent{
+    width: 100%;
+        cursor: grab;
+        overflow: auto;
+        user-select: none;
+    
+}
+::-webkit-scrollbar {
+    width: 0;  /* Remove scrollbar space */
+    background: transparent;  /* Optional: just make scrollbar invisible */
+}

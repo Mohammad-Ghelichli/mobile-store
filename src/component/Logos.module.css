@@ -1,0 +1,26 @@
+.logos{
+    background-color: whitesmoke;
+    text-align: center;
+    color:rgb(80, 81, 82) ;
+    padding: 10px;
+    
+}
+.logos h1{
+    font-size: 37px;
+    
+}
+.logos img:hover{
+    transform: rotate(-360deg);
+}
+.logos img{
+    box-shadow: 0 0 8px 7px rgb(85,83,84);
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    transition: 0.7s;
+}
+.logos article{
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
